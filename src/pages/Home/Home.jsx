@@ -1,9 +1,11 @@
 import React from 'react'
 import Slider from '../../Components/Slider/Slider'
-
+import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
 function Home() {
   return (
     <div>
+		<Navbar/>
         <Slider/>
         <main>
         <section class="about-us" id="about-us">
@@ -102,6 +104,7 @@ function Home() {
         </section>
         <div id="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A58f71cb05a4a6b467f7e99a026f07b594abb60d9d508fbf5865a4cb9d6baf677&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe></div>
         </main>
+		<Footer/>
     </div>
   )
 }

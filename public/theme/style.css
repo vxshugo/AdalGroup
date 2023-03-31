@@ -1050,12 +1050,6 @@ opacity: 0;
 	background-color: #fff;
 	padding: 10px;
 }
-.layouts-images a {
-	display: none;
-}
-.layouts-images a:nth-child(1) {
-	display: block !important;
-}
 /**
 * @section aside
 */
